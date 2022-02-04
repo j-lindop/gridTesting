@@ -1,77 +1,12 @@
 <html>
-	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="css/cssreset.css">
-		<style>
-
-
-.container {
-	width: 460px;
-	width:  100%;
-	margin:  20px auto;
-	padding:  0 10px;
-}
-
-.grid {
-	display:  grid;
-	grid-gap:  20px;
-}
-
-.grid-2 {
-	display:  grid;
-	grid-template-columns:  repeat(2, 1fr);
-	grid-gap:  20px;
-}
-
-.item {
-	border:  1px solid black;
-}
-
-
-@media (min-width:  480px) {
-
-	.container {
-		width:  480px;
-		width:  100%;
-		padding:  0 20px;
-	}
-
-	.md-grid-3 {
-		display:  grid;
-		grid-template-columns: repeat(3, 1fr);
-		grid-gap: 20px;
-	}
-
-	.item {
-		border:  1px solid black;
-	}
-
-}
-
-@media (min-width:  1100px) {
-
-	.container {
-		width:  1100px;
-		width:  100%;
-		padding:  0 80px;
-	}
-
-	.lg-grid-4 {
-		display:  grid;
-		grid-template-columns: repeat(4, 1fr);
-		grid-gap: 20px;
-	}
-
-}
-
-</style>
-
-
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/cssreset.css">
+<link rel="stylesheet" href="css/layout.css">
 </head>
-
 	<body>
 		<div class="container">
-			<div class="grid md-grid-3 lg-grid-4 xl-grid-5">
+			<div class="grid md-grid-3 lg-grid-4">
 				<div class="item">gridItem</div>
 				<div class="item">gridItem</div>
 				<div class="item">gridItem</div>
@@ -84,10 +19,9 @@
 				<div class="item">gridItem</div>
 				<div class="item">gridItem</div>
 				<div class="item">gridItem</div>
-			</div>
-		</div>
+			</div><!--/.grid-->
+		</div><!--/.container-->
 	</body>
-
 </html>
 
 
