@@ -1,0 +1,133 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/cssreset.css">
+		<style>
+
+/*
+
+Breakpoint summary
+0-460
+md 460-939
+lg 940-1259
+xl 1260 + 
+
+*/
+
+.container {
+	width: 460px;
+	width:  100%;
+	margin:  20px auto;
+	/*padding-left:  10px;
+	padding-right:  10px;
+	this also works to add some space on the sides
+	border:  1px solid black;*/
+}
+
+.grid {
+	display:  grid;
+}
+
+.grid-2 {
+	display:  grid;
+	grid-template-columns:  repeat(2, 1fr);
+	grid-gap:  20px;
+}
+
+.item {
+	border:  3px solid green;
+}
+
+
+@media (min-width:  460px) {
+
+	.container {
+		width:  460px;
+		width:  100%;
+		/*border:  3px solid black;*/
+	}
+
+	.md-grid-3 {
+		display:  grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 20px;
+
+	}
+
+	.item {
+		border:  3px solid yellow;
+	}
+
+}
+
+
+@media (min-width:  940px) {
+
+	.container {
+		width:  940px;
+		width:  100%;
+		/*border:  6px solid black;*/
+	}
+
+	.lg-grid-4 {
+		display:  grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-gap: 20px;
+	}
+
+}
+
+
+@media (min-width:  1260px) {
+	
+	.container {
+		width:  1260;
+		width:  100%;
+	}
+
+	.xl-grid-5 {
+		display:  grid;
+		grid-template-columns: repeat(5, 1fr);
+		grid-gap:  20px;
+	}
+
+		.item {
+		border:  3px solid blue;
+	}
+
+
+}
+
+.150 {
+	
+}
+
+</style>
+
+
+</head>
+
+	<body>
+		<div class="container">
+			<div class="grid md-grid-3 lg-grid-4 xl-grid-5">
+				<div class="item">gridItem</div>
+				<div class="item">gridItem</div>
+				<div class="item">gridItem</div>
+				<div class="item">gridItem</div>
+				<div class="item">gridItem</div>
+				<div class="item">gridItem</div>
+				<div class="item">gridItem</div>
+				<div class="item">gridItem</div>
+				<div class="item">gridItem</div>
+				<div class="item">gridItem</div>
+				<div class="item">gridItem</div>
+				<div class="item">gridItem</div>
+			</div>
+		</div>
+	</body>
+
+</html>
+
+
+
+
