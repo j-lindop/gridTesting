@@ -1,9 +1,11 @@
 
+
 .container {
-	width: 460px;
+	width: 499px;
 	width:  100%;
 	margin:  20px auto;
-	padding:  0 10px;
+	padding:  0 20px;
+	/*border:  1px solid black;*/
 }
 
 .grid {
@@ -22,10 +24,10 @@
 }
 
 
-@media (min-width:  480px) {
+@media (min-width:  500px) {
 
 	.container {
-		width:  480px;
+		width:  500px;
 		width:  100%;
 		padding:  0 20px;
 	}
@@ -43,12 +45,12 @@
 }
 
 
-@media (min-width:  1100px) {
+@media (min-width:  980px) {
 
 	.container {
-		width:  1100px;
+		width:  980px;
 		width:  100%;
-		padding:  0 80px;
+		padding:  0 20px;
 	}
 
 	.lg-grid-4 {
@@ -58,3 +60,31 @@
 	}
 
 }
+
+
+@media (min-width:  1300px) {
+
+	.container {
+		width:  1300px;
+		width:  100%;
+		padding:  0 20px;
+	}
+
+	.xl-grid-2 {
+		display:  grid;
+		grid-template-columns:  repeat(2, 1fr);
+		grid-gap:  20px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
