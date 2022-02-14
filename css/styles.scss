@@ -1,11 +1,18 @@
 
 
+$color-black:#000000; 
+$color-navy: #001f3f;  
+$color-lime: #01ff70; 
+
+$md: 500px;
+$lg: 980px; 
+$xl: 1300; 
+
 .container {
 	width: 499px;
 	width:  100%;
 	margin:  20px auto;
 	padding:  0 20px;
-	/*border:  1px solid black;*/
 }
 
 .grid {
@@ -19,12 +26,18 @@
 	grid-gap:  20px;
 }
 
+@mixin item-Text {
+    font: blue; 
+	font-size: 12px;
+}
+
 .item {
-	border:  1px solid black;
+    @include item-Text; 
+	border:  5px solid $color-navy;
 }
 
 
-@media (min-width:  500px) {
+@media (min-width:  $md) {
 
 	.container {
 		width:  500px;
@@ -38,14 +51,10 @@
 		grid-gap: 20px;
 	}
 
-	.item {
-		border:  1px solid black;
-	}
-
 }
 
 
-@media (min-width:  980px) {
+@media (min-width:  $lg) {
 
 	.container {
 		width:  980px;
@@ -62,7 +71,7 @@
 }
 
 
-@media (min-width:  1300px) {
+@media (min-width: $xl) {
 
 	.container {
 		width:  1300px;
@@ -77,14 +86,3 @@
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
