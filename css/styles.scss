@@ -6,7 +6,7 @@ $color-lime: #01ff70;
 
 $md: 500px;
 $lg: 980px; 
-$xl: 1300; 
+$xl: 1300px; 
 
 .container {
 	width: 499px;
@@ -59,7 +59,7 @@ $xl: 1300;
 	.container {
 		width:  980px;
 		width:  100%;
-		padding:  0 20px;
+		padding:  0 180px;
 	}
 
 	.lg-grid-4 {
@@ -76,7 +76,7 @@ $xl: 1300;
 	.container {
 		width:  1300px;
 		width:  100%;
-		padding:  0 20px;
+		padding:  0 180px;
 	}
 
 	.xl-grid-2 {
