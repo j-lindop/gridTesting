@@ -19,7 +19,7 @@
 .item {
   font: blue;
   font-size: 12px;
-  border: 5px solid #001f3f;
+  border: 10px solid #001f3f;
 }
 
 @media (min-width: 500px) {
