@@ -10,7 +10,7 @@ $xl: 1300px;
 
 .container {
 	width: 499px;
-	width:  100%;
+	max-width:  100%;
 	margin:  20px auto;
 	padding:  0 20px;
 }
@@ -33,7 +33,7 @@ $xl: 1300px;
 
 .item {
     @include item-Text; 
-	border:  10px solid $color-navy;
+	border:  25px solid $color-navy;
 }
 
 
@@ -41,7 +41,7 @@ $xl: 1300px;
 
 	.container {
 		width:  500px;
-		width:  100%;
+		max-width:  100%;
 		padding:  0 20px;
 	}
 
@@ -58,7 +58,7 @@ $xl: 1300px;
 
 	.container {
 		width:  980px;
-		width:  100%;
+		max-width:  100%;
 		padding:  0 180px;
 	}
 
@@ -75,7 +75,7 @@ $xl: 1300px;
 
 	.container {
 		width:  1300px;
-		width:  100%;
+		max-width:  100%;
 		padding:  0 180px;
 	}
 
