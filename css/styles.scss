@@ -8,12 +8,6 @@ $md: 500px;
 $lg: 980px; 
 $xl: 1300px; 
 
-.container {
-	width: 499px;
-	max-width:  100%;
-	margin:  20px auto;
-	padding:  0 20px;
-}
 
 .grid {
 	display:  grid;
@@ -36,6 +30,12 @@ $xl: 1300px;
 	border:  25px solid $color-navy;
 }
 
+.container {
+	width: 499px;
+	max-width:  100%;
+	margin:  20px auto;
+	padding:  0 20px;
+}
 
 @media (min-width:  $md) {
 
