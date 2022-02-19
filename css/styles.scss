@@ -40,7 +40,7 @@ $xl: 1300px;
 @media (min-width:  $md) {
 
 	.container {
-		width:  500px;
+		width:  $md;
 		max-width:  100%;
 		padding:  0 20px;
 	}
@@ -57,7 +57,7 @@ $xl: 1300px;
 @media (min-width:  $lg) {
 
 	.container {
-		width:  980px;
+		width:  $lg;
 		max-width:  100%;
 		padding:  0 180px;
 	}
@@ -74,7 +74,7 @@ $xl: 1300px;
 @media (min-width: $xl) {
 
 	.container {
-		width:  1300px;
+		width:  $xl;
 		max-width:  100%;
 		padding:  0 180px;
 	}
